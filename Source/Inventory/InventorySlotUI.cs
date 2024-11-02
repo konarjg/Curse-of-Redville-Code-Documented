@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+//Korzystam ze wzorca projektowego controller - view, który rozdziela logikê od wyœwietlania
+//Ta klasa odpowiada za zachowanie i wyœwietlanie slotu
 public class InventorySlotUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler
 {
     [SerializeField]
