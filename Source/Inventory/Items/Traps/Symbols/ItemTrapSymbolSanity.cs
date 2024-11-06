@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Symbol of Sanity Trap Item", menuName = "Curse of Redville/Items/Traps/Symbols/Symbol of Sanity")]
+//Symbol zapewniający bonus procentowy do psychiki (tymczasowo)
 public class ItemTrapSymbolSanity : ItemTrapSymbol
 {
     public delegate void OnSanitySymbolTrapTriggered(Trap trap);

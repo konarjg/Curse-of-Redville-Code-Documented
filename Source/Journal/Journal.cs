@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
+//Kontroler dziennika
 public class Journal : MonoBehaviour
 {
     [SerializeField]
-    private Transform JournalUI;
+    private Transform JournalUI; //Interfejs dziennika
     [SerializeField]
-    private TextMeshProUGUI CurrentNoteNameText;
+    private TextMeshProUGUI CurrentNoteNameText; //Tekst z nazw¹ aktualnej notatki
     [SerializeField]
-    private GameObject NoteUIPrefab;
+    private GameObject NoteUIPrefab; //Potrzebne do dodawania notatki do dziennika
     [SerializeField]
-    private TextMeshProUGUI ContentsText;
+    private TextMeshProUGUI ContentsText; //Miejsce na zawartoœæ notatki
 
     private List<NoteUI> Notes = new List<NoteUI>();
     private NoteUI CurrentNote;
